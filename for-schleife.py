@@ -1,6 +1,11 @@
-a = [1, 2, 4, 5, 7]
+from random import randint
 
-for integer in a:
-    print(integer)
+length = 5
+a = 1
+b = 100
+password = []
 
-
+for i in range(length):
+    password.append(randint(a, b))
+    
+print(password)
